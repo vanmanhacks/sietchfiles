@@ -1,0 +1,15 @@
+# Secrets — never commit
+profile/config/litellm-keys.nix
+profile/system/ssh-keys.nix
+*.env
+*.secret
+/etc/ghola/env
+
+# PII — extracted to non-committed file
+flakeSettings.nix
+
+# Backup/scratch files
+*.BAK
+*.bak
+*.swp
+*~
